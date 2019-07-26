@@ -36,7 +36,7 @@ defmodule DistilleryPackager.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [
-      {:distillery,  "~> 2.0"},
+      {:distillery,  "~> 2.1"},
       {:vex,         "~> 0.8"},
       {:timex,       "~> 3.3"},
       {:ex_doc,      ">= 0.0.0", only: :dev},
